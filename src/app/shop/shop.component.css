@@ -1,0 +1,18 @@
+.container {
+  margin: 100px 10% 50px 10%;
+  font-size: 25px;
+}
+.navigator {
+  margin: 5px;
+}
+ul {
+  list-style-type: none;
+}
+.item {
+  border-bottom: 1px dotted brown;
+}
+button {
+  border-style: none;
+  outline: none;
+  background-color: transparent;
+}

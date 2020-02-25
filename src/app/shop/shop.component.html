@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-3 navigator">
+      <ul>
+        <li class="title">Categories:</li>
+        <li class="item">
+          <button type="button" (click)="fullinventory()">
+            Full inventory
+          </button>
+        </li>
+        <li class="item">
+          <button type="button" (click)="kitchen()">Kitchen</button>
+        </li>
+        <li class="item">
+          <button type="button" (click)="bedroom()">Bedroom</button>
+        </li>
+        <li class="item">
+          <button type="button" (click)="livingroom()">Living room</button>
+        </li>
+        <li class="item">
+          <button type="button" (click)="bathroom()">Bathroom</button>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-9  inventory">
+      {{ objects }}
+    </div>
+  </div>
+</div>

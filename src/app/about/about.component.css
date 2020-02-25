@@ -1,0 +1,18 @@
+.about-main {
+  padding: 200px 15px 20px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: justify;
+}
+.about-paragraph {
+  width: 60%;
+}
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}

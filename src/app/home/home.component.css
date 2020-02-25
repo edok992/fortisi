@@ -1,0 +1,70 @@
+main {
+  background-color: lightgray;
+}
+
+.home-intro {
+  background-image: url("../../assets/livingRoom2.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 98%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 30px;
+}
+.home-intro > h2 {
+  color: white;
+}
+.home-intro > a > button {
+  padding: 10px 15px;
+  background-color: darkgray;
+  color: white;
+  text-decoration: none;
+}
+.home-paragraph {
+  background-color: white;
+  text-align: center;
+  padding: 15px 25%;
+  margin: 10px 30px;
+}
+
+.home-offer {
+  margin: 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.offer-tile {
+  flex-basis: 32%;
+  height: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.offer-tile > img {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 10px;
+}
+.price {
+  color: gray;
+}
+.loadmore {
+  background-color: lightgray;
+  border: 1px solid black;
+  padding: 5 px 5 px;
+  text-align: center;
+}
+.loadmore {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+  height: 30px;
+  width: 10%;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-bottom: 20px;
+}
